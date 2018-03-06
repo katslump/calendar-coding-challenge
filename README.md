@@ -32,3 +32,5 @@ FAQ
 3. Does my solution need to match the image pixel for pixel? No, we will not be testing for pixel matching.
 
 4. Is it safe to assume that I am supposed to re-render the entire calendar day if the layOutDay method is called in the Console? Yes, you should throw everything away and re-render from scratch every time the function is called.
+
+![Final Result](img/final.png)

@@ -5,11 +5,10 @@ class App extends React.Component {
   render() {
     return (
       <div>
-          <Day />
+          <Day events={this.props.events}/>
       </div>
     );
   }
 };
-
 
 export default App;

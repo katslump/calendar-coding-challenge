@@ -18,8 +18,16 @@ body {
     display: inline-block;
 }
 
+.timeline {
+    width: 100px;
+    height: 720px;
+    display: inline-block;
+    background-color: 'black';
+}
+
 .time {
     color: #7f8c8d;
+    font-size: 9px;
 }
 
 .date {
@@ -39,7 +47,6 @@ ul {
     padding: 0;
 }
 
-
 ul li {
     position: absolute;
     width: 100%;
@@ -48,9 +55,32 @@ ul li {
     border-left: 2px solid rgba(155, 89, 182, 1.0);
     padding: 5px 8px;
     background: rgba(255, 255, 255, .1);
-    margin: 5px 0;
+    margin: 5px;
     border-radius: 5px;
 }
+
+ul.timeList {
+    padding: 0 10px;
+}
+
+ul.timeList li {
+    position: relative;
+    background: transparent;
+    border: none;
+    display: block;
+    margin: 0px;
+    font-size: 10px;
+    color: #7f8c8d;
+    padding: 4.4px 0;
+    height: 20px;
+    text-align: right;
+}
+
+ul.timeList li:nth-child(odd){
+    font-weight:bold;
+    font-size: 14px;
+    color: black;
+}​
 
 ul li.open {
     border-color: rgba(230, 126, 34, 1.0);
