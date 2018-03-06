@@ -33,4 +33,6 @@ FAQ
 
 4. Is it safe to assume that I am supposed to re-render the entire calendar day if the layOutDay method is called in the Console? Yes, you should throw everything away and re-render from scratch every time the function is called.
 
+### Screenshot of Final Result
+
 ![Final Result](img/final.png)
